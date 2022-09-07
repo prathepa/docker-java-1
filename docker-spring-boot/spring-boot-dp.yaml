@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: spring-container
-        image: xxxxx.dkr.ecr.xxxx.amazonaws.com/springboot:1.0
+        image:  https://github.com/Ikrao/docker-java.git
         imagePullPolicy: Always
         ports:
           - name: web
